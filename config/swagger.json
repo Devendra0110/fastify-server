@@ -1,0 +1,38 @@
+{
+    "routePrefix": "/api/docs",
+    "exposeRoute": true,
+    "openapi": {
+        "info": {
+            "title": "P3L web API",
+            "description": "P3L web API docs.You can use the `api-key` and `Bearer-Token` to test the authorization filters.",
+            "version": "1.1.10"
+        },
+        "server": {
+            "url": "http://localhost:3000"
+        },
+        "components": {
+        "securitySchemes": {
+            "API-KEY": {
+                "type": "apiKey",
+                "name": "apiKey",
+                "in": "header"
+            },
+            "Role-Index": {
+                "type": "apiKey",
+                "name": "roleindex",
+                "in": "header"
+            },
+            "Bearer Token":{
+                "type": "http",
+                "scheme": "bearer",
+                "bearerFormat": "JWT"
+            }
+        }
+        },
+        "security": [{
+        "Bearer Token": ""
+        },{
+            "Role-Index": ""
+        }]
+    }
+}

@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "lib": ["es2016", "DOM"],
+    "paths": {
+      "*": ["src/*"]
+    },
+    "allowJs": true,
+    "target": "es2016",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "sourceMap": true,
+    "outDir": "./dist",
+    "esModuleInterop":true,
+    "skipLibCheck":true,
+    "skipDefaultLibCheck":true,
+    "types": []
+  },
+  "include": [
+    "./src/**/*.ts",
+    "./config"
+  ],
+  "exclude": ["node_modules"],
+}

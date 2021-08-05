@@ -1,0 +1,16 @@
+{
+    "HOST": "0.0.0.0",
+    "PORT": "3000",
+    "CACHE_CONFIG": {
+        "host": "localhost",
+        "port": 6379
+    },
+    "MONGO_URL": "<<MONGO_URL>>",
+    "MONGO_CONFIG": {
+        "useNewUrlParser": true,
+        "useUnifiedTopology": true,
+        "useCreateIndex": true,
+        "useFindAndModify": false
+    }
+
+}

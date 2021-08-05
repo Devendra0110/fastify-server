@@ -1,0 +1,11 @@
+{
+    "HOST": "0.0.0.0",
+    "PORT": "3000",
+    "CON_HOST":"localhost",
+    "CON_PORT":"4000",
+    "AUTH_TOKEN": "",
+    "CACHE_CONFIG": {
+        "host": "localhost",
+        "port": 6379
+    }
+}
