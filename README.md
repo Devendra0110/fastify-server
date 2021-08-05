@@ -10,7 +10,7 @@
 </p>
 
 # Introduction 
-An backend application built on Fastify with :heart:
+An backend application boiler plate built on Fastify with :heart:
 
 # Getting Started
 Follow the following steps to build/run the application
